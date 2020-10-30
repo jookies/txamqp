@@ -1,0 +1,20 @@
+name: "python3-txamqp3"
+arch: "amd64"
+platform: "linux"
+version: "v0.9.0"
+section: "default"
+priority: "extra"
+maintainer: "Jookies LTD <jasmin@jookies.net>"
+description: "Python3 library for communicating with AMQP peers and brokers using Twisted"
+vendor: "Esteve Fernandez"
+homepage: "https://github.com/jookies/txamqp"
+license: "Apache 2"
+replaces:
+- python3-txamqp3
+provides:
+- python3-txamqp3
+depends:
+- python3 (>= 3.7)
+- python3-twisted
+files:
+  ./txamqp/**/*: /usr/lib/python3/dist-packages/txamqp/
