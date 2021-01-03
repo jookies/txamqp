@@ -2,3 +2,5 @@
 *.pyc
 src/_trial_temp*
 .idea
+*.rpm
+*.deb
